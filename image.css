@@ -1,0 +1,71 @@
+nav {
+  background-color: #b6e9f7;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #96caf7;
+}
+
+/* Other styles */
+body {
+  background-color: rgb(245, 247, 248);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #63aaaf;
+  text-align: center; /* מרכז את הכותרת h1 */
+}
+
+.hk2 {
+  color: #6fdde3;
+  text-align: center; /* מרכז את הכותרת h2 */
+}
+
+p {
+  color: #5687cb;
+  text-align: center; /* מרכז את הפסקאות */
+}
+
+
+
+
+body {
+  background-color: rgb(247, 246, 234);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover; 
+  display: inline-block; 
+}

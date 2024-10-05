@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center; /*אני מרכזת הקותרת באמצע*/
+}
+
+nav {
+  background-color: #b6e9f7;
+  color: #fff;
+  padding: 10px;/*לרווח בין מה שכתבתי לשאת הכרטיס*/
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left; /* Ensure navigation menu stays aligned to the left */
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.border-example {
+  border: 10px solid rgb(250, 249, 247); 
+  padding: none; 
+  
+  
+}
+.logo-container {
+  text-align: center;
+  margin-top: 20px;
+}
+.logo {
+  width: 200px;
+  
+}

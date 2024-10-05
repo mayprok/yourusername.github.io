@@ -1,0 +1,81 @@
+
+body {
+    background-color: rgb(223, 232, 245);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+nav {
+    background-color: #b6e9f7;/*לרווחים */
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.contact-card {
+    background-color: white;/* התחלה של העיצוד של הכרטיסים */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 100px;
+    width: 300px;
+    text-align: center;
+    margin-top: 60px; 
+}
+
+.contact-card h2 {
+    margin-top: 0;/*לקותרת h2*/
+    color: #333;
+}
+
+.contact-card form {
+    display: flex; 
+    flex-direction: column;
+}
+
+.contact-card label {
+    margin: 10px 0 5px;/* שיהיה אותו גודך לכל הקותרות*/
+    text-align: left;
+}
+
+.contact-card input {
+    padding: 10px;/* זה לעיצוב והאירגון של קלט שאני קולטת מהמשתמש*/
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-card button {
+    padding: 10px;/*עצוב וצבע של הכפתור אבל ליזכור שהכפתור לא עושה כלום*/
+    background-color: #99e6fb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-card button:hover {
+    background-color: #9cd6fd;/*ברגע שהעכבר עובר על הקפתור*/
+}
